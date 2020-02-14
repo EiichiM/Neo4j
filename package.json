@@ -1,0 +1,21 @@
+{
+  "name": "social-project",
+  "version": "1.0.0",
+  "description": "Growth sensei project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node src/app",
+    "dev": "nodemon src/app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "body-parser": "*",
+    "cookie-parser": "*",
+    "ejs": "^2.4.2",
+    "express": "*",
+    "morgan": "*",
+    "neo4j-driver": "^4.0.1"
+  },
+  "author": "Eiichi Matsuo",
+  "license": "ISC"
+}
